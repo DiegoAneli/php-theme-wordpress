@@ -8,13 +8,12 @@
 
           <div class="post">
             <h2>
-                <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
+
                   <?php the_title(); ?>
-                  </a>
                   <small><?php the_time('j F Y'); ?></small>
 
             </h2>
-            <p><?php the_excerpt(); ?></p>
+            <p><?php the_content(); ?></p>
             <h3>Scritto da: <?php the_author_posts_link(); ?></h3>
             <p><?php the_category(); ?></p>
 
@@ -22,7 +21,7 @@
           </div>
 
         <?php endwhile; else: ?>
-          <p>Nessun articolo disponibile</p>
+          <p>Articolo non trovato</p>
         <?php endif; ?>
 
 
