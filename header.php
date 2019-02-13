@@ -6,12 +6,12 @@
     <title><?php bloginfo('title'); ?></title>
     <?php wp_head(); ?>
   </head>
-    <body> <?php body_class(); ?>
+    <body <?php body_class(); ?>>
       <header>
         <div class="container">
 
           <div class="header-left">
-            <img src="https://www.boolean.careers/images/common/logo.png" alt="">
+            <img src="https://www.artworkstudios.it/wp-content/uploads/2015/04/realizzazione-logo-per-agenzia-viaggi.jpg" alt="">
           </div>
 
           <div class="header-right">
