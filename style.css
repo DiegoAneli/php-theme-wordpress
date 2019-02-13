@@ -10710,6 +10710,20 @@ header .container .header-right ul li a {
   color: grey;
 }
 
+.post {
+  margin: 40px 0;
+  border-bottom: 1px solid darkgrey;
+}
+
+.post h2 small {
+  font-size: 15px;
+  color: grey;
+}
+
+.post h3 {
+  font-size: 20px;
+}
+
 h1 {
   color: red;
 }

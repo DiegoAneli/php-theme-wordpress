@@ -15,6 +15,7 @@
             </h2>
             <p><?php the_excerpt(); ?></p>
             <h3>Scritto da: <?php the_author_posts_link(); ?></h3>
+            <p><?php the_category(); ?></p>
 
 
           </div>
