@@ -10,19 +10,10 @@
             <h2>
 
                   <?php the_title(); ?>
-                  <small><?php the_time('j F Y'); ?></small>
 
             </h2>
             <p><?php the_content(); ?></p>
-            <h3>Scritto da: <?php the_author_posts_link(); ?></h3>
-            <p><?php the_category(); ?></p>
-            <?php $postTags = wp_get_post_tags($post->ID); ?>
 
-            <?php if (!empty($postTags)) { ?>
-              <?php the_tags('Questi sono i tag: ', '/','/'); ?>
-            <?php } ?>
-
-            <?php comments_template(); ?>
 
 
           </div>
