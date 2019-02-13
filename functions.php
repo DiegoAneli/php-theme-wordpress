@@ -1,6 +1,6 @@
 <?php
 
-  if (!function_exist('import_style'))
+  if (!function_exists('import_style'))
   {
     function import_style()
     {
@@ -10,6 +10,16 @@
     add_action('wp_enqueue_scripts', 'import_style');
   }
 
+  if (!function_exists('boolean_setup'))
+  {
+    function boolean_setup()
+    {
+      register_nav_menus(array('header' => 'header'));
+    }
 
+    add_action('after_setup_theme', 'boolean_setup');
+
+
+  }
 
  ?>

@@ -1,17 +1,17 @@
 @charset "UTF-8";
 
 /*
-Theme Name: Boolean
-Theme URI: https://boolean.careers
-Author: Boolean Careers
-Author URI: https://wordpress.org/
-Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-Version: 1.2
-License: GNU General Public License v2 or later
-License URI: LICENSE
-Text Domain: twentynineteen
-Tags: one-column, threaded-comments, translation-ready
+  Theme Name: Boolean
+  Theme URI: https://boolean.careers
+  Author: Boolean Careers
+  Author URI: https://wordpress.org/
+  Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  Version: 1.2
+  License: GNU General Public License v2 or later
+  License URI: LICENSE
+  Text Domain: twentynineteen
+  Tags: one-column, threaded-comments, translation-ready
 
 */
 
@@ -10668,6 +10668,46 @@ a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6;
   }
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid lightgrey;
+}
+
+header .container {
+  height: 100%;
+}
+
+header .container .header-left,
+header .container .header-right {
+  float: left;
+  height: 100%;
+}
+
+header .container .header-left img {
+  height: 50px;
+  margin-top: 10px;
+}
+
+header .container .header-right {
+  float: right;
+  line-height: 70px;
+}
+
+header .container .header-right ul {
+  list-style: none;
+  text-align: right;
+}
+
+header .container .header-right ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+header .container .header-right ul li a {
+  color: grey;
 }
 
 h1 {
